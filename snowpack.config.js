@@ -6,7 +6,6 @@ module.exports = {
   mount: {
     src: "/static",
     public: "/",
-    /* ... */
   },
   plugins: [
     "inline-svg"
@@ -20,6 +19,7 @@ module.exports = {
     tailwindConfig: "./tailwind.config.js",
   },
   buildOptions: {
-    /* ... */
+    jsxFactory: "h",
+    jsxFragment: "Fragment"
   },
 };
