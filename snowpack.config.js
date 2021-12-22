@@ -8,9 +8,9 @@ module.exports = {
     public: "/",
   },
   plugins: [
-    "inline-svg"
+    "inline-svg",
     "@snowpack/plugin-typescript",
-    "@snowpack/plugin-postcss"
+    "@snowpack/plugin-postcss",
   ],
   packageOptions: {
     /* ... */
@@ -20,6 +20,6 @@ module.exports = {
   },
   buildOptions: {
     jsxFactory: "h",
-    jsxFragment: "Fragment"
+    jsxFragment: "Fragment",
   },
 };
