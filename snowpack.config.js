@@ -21,5 +21,6 @@ module.exports = {
   buildOptions: {
     jsxFactory: "h",
     jsxFragment: "Fragment",
+    jsxInject: 'import {h, Fragment} from "preact";',
   },
 };
